@@ -32,7 +32,7 @@ void deleteCar(int position_in_train,trainCar *start) {
 	
 }
 int countCars(trainCar *start) {
-
+	return 0;
 }
 
 void printCars(trainCar *start) {
@@ -89,7 +89,7 @@ int main()
 	insertCar(2, root, "luggage car");
 	insertCar(12, root, "New Caboose 1");
 	insertCar(13, root, "New Caboose 2");
-
+	std::cout << countCars(root);
 
 
 	position = root;
